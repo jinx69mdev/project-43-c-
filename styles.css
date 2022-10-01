@@ -21,17 +21,17 @@
   --z-modal: 1000;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 667px) {
   :root {
-    --big-font-size: 1.75rem;
-    --normal-font-size: 1rem;
+    --big-font-size: 1.5rem;
+    --normal-font-size: 1.5rem;
   }
 }
 
 /*=============== BASE ===============*/
 *{
   box-sizing: border-box;
-  padding: 0;
+  padding: 5;
   margin: 0;
 }
 
@@ -44,7 +44,7 @@ button{
 body{
   background-color: var(--body-color);
   color: var(--text-color);
-  position: relative;
+  position: absolute;
 }
 
 button{
