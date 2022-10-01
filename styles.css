@@ -14,8 +14,8 @@
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
-  --big-font-size: 1.5rem;
-  --normal-font-size: .938rem;
+  --big-font-size: 1.75rem;
+  --normal-font-size: .438rem;
 
   /*========== z index ==========*/
   --z-modal: 1000;
@@ -23,9 +23,7 @@
 
 @media screen and (min-width: 667px) {
   :root {
-    --big-font-size: 1.5rem;
-    --normal-font-size: 1.5rem;
-  }
+
 }
 
 /*=============== BASE ===============*/
@@ -54,18 +52,18 @@ button{
 }
 
 img{
-  max-width: 100%;
+  max-width: 10%;
   height: auto;
 }
 
 /*=============== MODAL ===============*/
 .container{
-  margin-left: 1rem;
+  margin-left: 1.7rem;
   margin-right: 1rem;
 }
 
 .modal{
-  height: 100vh;
+  height: 10vh;
   display: grid;
   place-items: center;
 }
